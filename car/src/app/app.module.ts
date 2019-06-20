@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
 import { FormComponent } from './form/form.component';
 import { RowComponent } from './row/row.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     FormComponent,
-    RowComponent
+    RowComponent,
+    MatFormFieldModule
   ],
   imports: [
     BrowserModule,
