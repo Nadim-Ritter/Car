@@ -6,6 +6,6 @@ export class Car {
     public Color: string;
     public ReleaseYear: Date;
     public AmountSeats: number;
-    public Brand: string;
+    public Make: string;
     public Model: string;
 }
