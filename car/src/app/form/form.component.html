@@ -1,15 +1,35 @@
-<div class="example-container">
+<div id="titleCarForm">
+  Formular Auto
+</div>
+
+<div class="example-container" id="carForm">
   <mat-form-field>
-    <input matInput placeholder="Input">
+    <input matInput placeholder="Marke">
   </mat-form-field>
 
   <mat-form-field>
-    <textarea matInput placeholder="Textarea"></textarea>
+    <input matInput placeholder="Modell">
   </mat-form-field>
 
   <mat-form-field>
-    <mat-select placeholder="Select">
-      <mat-option value="option">Option</mat-option>
-    </mat-select>
+    <input matInput placeholder="Farbe">
   </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Leistung" [type]="number">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Höchstgeschwindigkeit">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Leistung">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Produktionsjahr">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary">Submit</button>
 </div>

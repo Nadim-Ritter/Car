@@ -12,15 +12,18 @@ import {MatSelectModule} from '@angular/material/select';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTableModule} from '@angular/material/table';
+import { CarOverviewComponent } from './car-overview/car-overview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     FormComponent,
-    RowComponent
+    RowComponent,
+    CarOverviewComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     AppRoutingModule,
     MatButtonModule, 
